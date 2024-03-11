@@ -1,0 +1,71 @@
+.circle-btn{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 7px;
+}
+body{
+	background-color: #333333;
+}
+
+.container{
+	max-width: 400px;
+	height: 750px;
+	margin: auto;
+}
+.whole-app{
+	width:100%;
+	height: 100%;
+	background-color: black;
+	border-radius: 50px;
+	text-align: center;
+	border: 2px solid #ededed;
+}
+.screen{
+	height: 80px;
+	width: 100%;
+	padding-top: 150px;
+	text-align:right;
+}
+input[type = "text"]{
+	background-color: transparent;
+	text-align: end;
+	width: 100%;
+	color: white;
+	border: 0px;
+	font-size: 4rem;
+}
+
+.circle-btn-v2{
+	flex-grow: 1;
+	height: 80px;
+	width: 170px;
+	border-radius: 40px;
+	margin: 7px;
+}
+button{
+	font-size: 20px;
+	text-align:left;
+	background-color: darkslategrey;
+	color: white;
+}
+button p{
+	margin-left: 27px;
+}
+.row-first button {
+	text-align: center;
+}
+.row-first button p{
+	margin: 0;
+}
+.gray{
+	background-color: #9f9f9f;
+	color: black;
+}
+.orange{
+	background-color: #f69906;
+}
+.active{
+	background-color: white;
+	color: black;
+}

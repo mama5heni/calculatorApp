@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="whole-app">
+			<div class="screen">
+				<input id ="inputNum" type="text">
+			</div>
+			<div class="buttons">
+				<div class="row row-first">
+					<button id = "clear" value="clear" class="circle-btn gray"><p>AC</p></button>
+					<button data-type = "negate" value ="negate" class="circle-btn gray"><p>+/-</p></button>
+					<button data-type = "operand" value ="percent" class="circle-btn gray"><p>%</p></button>
+					<button data-type = "operand" value ="/" class="circle-btn orange"><p>/</p></button>
+				</div>
+				<div class="row row-second">
+					<button data-type = "operator" value = "7" class="circle-btn"><p>7</p></button>
+					<button data-type = "operator" value = "8" class="circle-btn"><p>8</p></button>
+					<button data-type = "operator" value = "9" class="circle-btn"><p>9</p></button>
+					<button data-type = "operand" value = "*" class="circle-btn orange"><p>*</p></button>
+				</div>
+				<div class="row row-third">
+					<button data-type = "operator" value = "4" class="circle-btn"><p>4</p></button>
+					<button data-type = "operator" value = "5" class="circle-btn"><p>5</p></button>
+					<button data-type = "operator" value = "6" class="circle-btn"><p>6</p></button>
+					<button data-type = "operand" value = "-" class="circle-btn orange"><p>-</p></button>
+				</div>
+				<div class="row row-fourth">
+					<button data-type = "operator" value = "1" class="circle-btn"><p>1</p></button>
+					<button data-type = "operator" value = "2" class="circle-btn"><p>2</p></button>
+					<button data-type = "operator" value = "3" class="circle-btn"><p>3</p></button>
+					<button data-type = "operand" value = "+" class="circle-btn orange"><p>+</p></button>
+				</div>
+				<div class="row row-fifth">
+					<button data-type = "operator" value = "0" class="circle-btn-v2"><p>0</p></button>
+					<button data-type = "operator" value = "," class="circle-btn"><p>,</p></button>
+					<button id = "equals" value = "=" class="circle-btn orange"><p>=</p></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src = "script.js"></script>
+</body>
+</html>
